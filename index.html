@@ -1039,6 +1039,14 @@ function init(){
 }
 init();
 
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("sw.js").catch(function () {
+      // Silently ignore — e.g. when previewed somewhere sw.js isn't hosted.
+    });
+  });
+}
+
 })();
 </script>
 </body>
