@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.yeazbeer.twa",
+        "sha256_cert_fingerprints": ["4E:88:AA:39:6A:39:A9:CA:00:83:65:00:27:BB:F2:90:19:53:05:C1:89:D2:D0:57:FE:56:6F:14:3B:5F:AB:F5"]
+      }
+    }]
